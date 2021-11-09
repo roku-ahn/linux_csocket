@@ -1,0 +1,10 @@
+# : comments
+
+# no .a files
+#*.a
+
+
+# ignore all files in the build/ directory
+/bin
+/obj
+
