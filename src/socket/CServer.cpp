@@ -1,8 +1,7 @@
 #include "StdAfx.h"
 
 #include "CServer.h"
-//https://blog.naver.com/PostView.naver?blogId=93lms&logNo=221412867554&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView
-//https://www.crocus.co.kr/462?category=204622
+
 bool CServer::start(const char* ip, int port){
     
   	m_socket = socket(AF_INET, SOCK_STREAM, IPPROTO_IP);
